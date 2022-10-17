@@ -77,7 +77,7 @@ header {
     left: 638.5px;
     right: 638.5px;
     bottom: 34.2vh;
-    background-image: url('due.jpg') no-repeat center;
+    background: url('due.jpg') no-repeat center;
     /* background-size: 100%; */
     background-size: cover;
     border-radius: 50%;
@@ -142,12 +142,12 @@ h1 {
 
 @keyframes transition {
     25% {
-        background-image: url('gym.jfif') no-repeat center;
+        background: url('gym.jfif') no-repeat center;
         background-size: 100%;
     }
 
     to {
-        background-image: url('hoodie.jfif') no-repeat center;
+        background: url('hoodie.jfif') no-repeat center;
         background-size: 100%;
         opacity: 1;
     }
